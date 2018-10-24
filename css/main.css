@@ -1,5 +1,45 @@
 /* Topo */
 
+body {
+    -webkit-transition: opacity 2s;
+    transition: opacity 0.5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.pageLoaded {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.bg-dark {
+    background-color: #4399ef !important;
+}
+
+.bg-dark a,
+.bg-dark a:active {
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.bg-dark a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.navbar-toggler:hover {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-toggler.collapsed {
+    border-color: rgba(255, 255, 255, 0.7) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
 .navbar.fixed-top #loginclick {
     margin-left: 15px;
 }
@@ -12,6 +52,15 @@
     .navbar-collapse button {
         margin-top: 0px;
     }
+}
+
+.fixed-top .form-inline span {
+    color: #f8f8f8;
+    font-weight: bolder;
+}
+
+.fixed-top .form-inline a {
+    margin-left: 25px;
 }
 
 
@@ -57,7 +106,8 @@
 /* Rodapé */
 
 .baixo {
-    background-color: #f3f3f3;
+    border-top: 1px solid #e5e5e5;
+    background-color: #fafafa;
     padding: 25px;
     margin: 0px;
 }
@@ -72,6 +122,17 @@
 
 .baixo .right {
     text-align: right;
+}
+
+.baixo,
+.baixo a,
+.baixo a:active {
+    color: #979797 !important;
+}
+
+.baixo a:hover {
+    color: #535353 !important;
+    text-decoration: none !important;
 }
 
 .baixo a {
