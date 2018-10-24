@@ -32,7 +32,104 @@
 
 <body>
 
-    Yay
+    <!-- The Modal -->
+    <div class="modal" id="login">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Fazer Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+
+                    <label for="pwd">Senha:</label>
+                    <input type="password" class="form-control" id="pwd">
+
+                    <br />
+                    <div class="form-check">
+                        <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Lembre de mim
+                        </label>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Logar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <a class="navbar-brand" href="#">Blog Tec</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Melhores Postagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Envie a sua pergunta</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+
+                <input class="form-control mr-sm-2" type="text" placeholder="Procurar">
+                <button class="btn btn-success" type="submit">Enviar</button>
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login" id="loginclick">
+                    Login
+                </button>
+
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        nya
+
+        <br/>
+        <center>
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+            </ul>
+        </center>
+
+    </div>
 
 </body>
 
