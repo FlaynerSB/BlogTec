@@ -3,6 +3,10 @@ Blog de tecnologia
 
 https://alinepacheco.github.io/BlogTec/
 
+# Como visualizar a pagina através do arquivo HTML do GuitHub
+
+Coloque o " http://htmlpreview.github.io/? " na frente do link do arquivo exemplo (http://htmlpreview.github.io/?https://github.com/brunomonjardim/BlogTec/blob/master/index.html)
+
 
 # Sobre o trabalho
 
