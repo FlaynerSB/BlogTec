@@ -43,32 +43,40 @@
 
         <br/>
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Informação</th>
-                    <th>Campo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Nome</td>
-                    <td><input type="text" class="form-control" id="name"></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="email" class="form-control" id="email"></td>
-                </tr>
-                <tr>
-                    <td>Telefone</td>
-                    <td><input type="phone" class="form-control" id="phone"></td>
-                </tr>
-                <tr>
-                    <td>Mensagem</td>
-                    <td><textarea class="form-control" id="message" rows="7"></textarea></td>
-                </tr>
-            </tbody>
-        </table>
+        <form action="./contato.html" method="post">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Informação</th>
+                        <th>Campo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nome</td>
+                        <td><input type="text" class="form-control" name="name" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" class="form-control" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone</td>
+                        <td><input type="phone" class="form-control" name="phone" id="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Mensagem</td>
+                        <td><textarea class="form-control" id="message" name="message" rows="7"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <center>
+                <input type="submit" class="btn btn-primary" value="Enviar">
+            </center>
+
+        </form>
 
     </div>
 
