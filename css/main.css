@@ -148,3 +148,19 @@ body.pageLoaded {
     background-color: rgba(0, 0, 0, 0.3);
     left: 0px;
 }
+
+
+/* barra de navegacao do topo */
+.barra_navegacao {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  overflow:inherit;
+  font-size: large;
+  font-family: helvetica;
+  color: white;
+
+}
