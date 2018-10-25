@@ -140,65 +140,39 @@ body.pageLoaded {
     margin-left: 15px;
 }
 
-<<<<<<< HEAD
- /* Carrosel */
+/* Carrosel */
  
- .carousel-control-prev-icon,
- .carousel-control-next-icon {
-    height: 65px;
-    width: 65px;
-    outline: black;
-    background-size: 100%, 100%;
-    background-image: none;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   height: 65px;
+   width: 65px;
+   outline: black;
+   background-size: 100%, 100%;
+   background-image: none;
 
- }
- 
- .carousel-control-next-icon:after{
-    content: '>';
-    font-size: 65px;
-    font-weight: 1000;
-    color: #4399ef;
-  }
- 
- .carousel-control-prev-icon:after {
-   content: '<';
+}
+
+.carousel-control-next-icon:after{
+   content: '>';
    font-size: 65px;
    font-weight: 1000;
    color: #4399ef;
  }
 
- .carousel-indicators .active {
-    background-color: #2c8beb;
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 65px;
+  font-weight: 1000;
+  color: #4399ef;
+}
+
+.carousel-indicators .active {
+   background-color: #2c8beb;
+}
+
+ /* Cards */
+
+ .card-title {
+     color:#2c8beb;
  }
 
-  /* Cards */
-
-  .card-title {
-      color:#2c8beb;
-  }
-=======
-
-/* Carousel */
-
-.carousel-caption {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    left: 0px;
-}
-
-
-/* barra de navegacao do topo */
-.barra_navegacao {
-  background-color: blue;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 75px;
-  overflow:inherit;
-  font-size: large;
-  font-family: helvetica;
-  color: white;
-
-}
->>>>>>> upstream/master
